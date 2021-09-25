@@ -19,11 +19,11 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
 
   if(license === 'MIT License'){
-    return `(https://opensource.org/licenses/MIT)`
+    return `https://opensource.org/licenses/MIT`
   } else if(license === 'ISC License'){
-    return `(https://opensource.org/licenses/ISC)`
+    return `https://opensource.org/licenses/ISC`
   } else if(license === 'GNU GPLv3'){
-    return `(https://www.gnu.org/licenses/gpl-3.0)`
+    return `https://www.gnu.org/licenses/gpl-3.0`
   } else {
     return ''
   }
@@ -36,7 +36,8 @@ function renderLicenseSection(license) {
   if(license !== 'None' || license !== 'undefined'){
     return ''  
   } else {
-    return `${renderLicenseBadge()}${renderLicenseLink()}`
+    return `${renderLicenseBadge()}
+    See information on this license at ${renderLicenseLink()}`
   }
 }
 
