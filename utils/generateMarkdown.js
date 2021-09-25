@@ -36,7 +36,8 @@ function renderLicenseSection(license) {
   if(license === 'None' || license === 'undefined'){
     return ''  
   } else {
-    return `${renderLicenseBadge(license)}   (${renderLicenseLink(license)})`
+    return `##License
+    ${renderLicenseBadge(license)}   (${renderLicenseLink(license)})`
   }
 }
 
@@ -64,9 +65,6 @@ function generateMarkdown(data) {
 
   ## Usage
   ${data.usage}
-
-  ## License
-  ${data.license}
 
   ## Contributors
   ${data.contributors}
