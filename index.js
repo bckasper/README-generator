@@ -18,7 +18,7 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Provide a brief description of your project.'
+        message: 'Provide a brief description of your project:'
     },
     {
         type: 'input',
@@ -28,7 +28,7 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'Provide a brief description of how the user uses this application.'
+        message: 'Provide a brief description of how the user uses this application:'
     },
     {
         type: 'list',
@@ -44,27 +44,35 @@ const questions = [
     {
         type: 'input',
         name: 'tests',
-        message: 'Provide a sample criteria for testing the application.'
+        message: 'Provide a sample criteria for testing the application:'
     },
     {
         type: 'input',
         name: 'email',
-        message: 'Please provide an email address a user can reach you at for questions.'
+        message: 'Please provide an email address a user can reach you at for questions:'
     },
     {
         type: 'input',
         name: 'github',
-        message: 'Please provide your Github username.'
+        message: 'Please provide your Github username:'
     }
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-
+    fs.writeFile(fileName, data, (err){
+        if(err){
+            console.log(err)
+        } else {
+            console.log('README file successfully generated!')
+        }
+    })
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions)
+}
 
 // Function call to initialize app
 init();
