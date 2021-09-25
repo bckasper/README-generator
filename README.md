@@ -1,11 +1,16 @@
-# afbsdg
-  ### Created by: ben
+# Test Project
+  ### Created by: Ben
 
-  
+  ## License
+This application falls under the following license:
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+(https://opensource.org/licenses/MIT)
   
 
   ## Description
-  dfgb
+  This is just a test
 
   ## Table of Contents
   - [Installation](#installation)
@@ -16,16 +21,16 @@
   - [Questions](#questions)
 
   ## Installation
-  dfgb
+  Nothing!
 
   ## Usage
-  dfgb
+  They just type it in
 
   ## Contributors
-  asdc
+  Beno
 
   ## Tests
-  asdc
+  Like...this stuff
 
   ## Questions
-  Questions? Please contact me at asdc or visit my Github to view this application at asdc
+  Questions? Please contact me at bckasper@gmail.com or visit my Github to view this application at https://github.com/bckasper
