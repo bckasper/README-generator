@@ -5,9 +5,9 @@ function renderLicenseBadge(license) {
   if(license === 'MIT License'){
     return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)`
   } else if(license === 'ISC License'){
-    return `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)]`
+    return `![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)`
   } else if(license === 'GNU GPLv3'){
-    return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]`
+    return `![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)`
   } else {
     return ''
   }
@@ -33,11 +33,11 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if(license !== 'None' || license !== 'undefined'){
+  if(license === 'None' || license === 'undefined'){
     return ''  
   } else {
-    return `${renderLicenseBadge()}
-    See information on this license at ${renderLicenseLink()}`
+    return `${renderLicenseBadge(license)}
+    See information on this license at ${renderLicenseLink(license)}`
   }
 }
 
@@ -46,9 +46,8 @@ function generateMarkdown(data) {
   return `# ${data.title}
   ### Created by: ${data.name}
 
-  ${renderLicenseBadge(data.license)}
-  ${renderLicenseLink(data.license)}
   ${renderLicenseSection(data.license)}
+  
 
   ## Description
   ${data.description}
