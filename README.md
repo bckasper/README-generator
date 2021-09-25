@@ -1,8 +1,10 @@
 # test
   ### Created by: Ben
 
-  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-    See information on this license at https://opensource.org/licenses/MIT
+  
+    ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+    See information on this license at https://www.gnu.org/licenses/gpl-3.0
+    
   
 
   ## Description
@@ -23,7 +25,7 @@
   test
 
   ## License
-  MIT License
+  GNU GPLv3
 
   ## Contributors
   test
