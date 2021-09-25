@@ -1,8 +1,8 @@
 # test
-  ### Created by: Benji
+  ### Created by: Ben
 
-  ![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)
-See information on this license at https://opensource.org/licenses/ISC
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+    See information on this license at https://opensource.org/licenses/MIT
   
 
   ## Description
@@ -23,7 +23,7 @@ See information on this license at https://opensource.org/licenses/ISC
   test
 
   ## License
-  ISC License
+  MIT License
 
   ## Contributors
   test
