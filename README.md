@@ -1,16 +1,16 @@
-# Test Project
+# Test proyecto
   ### Created by: Ben
 
   ## License
 This application falls under the following license:
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
-(https://opensource.org/licenses/MIT)
+(https://www.gnu.org/licenses/gpl-3.0)
   
 
   ## Description
-  This is just a test
+  nothing to see here
 
   ## Table of Contents
   - [Installation](#installation)
@@ -21,16 +21,18 @@ This application falls under the following license:
   - [Questions](#questions)
 
   ## Installation
-  Nothing!
+  its all good
 
   ## Usage
-  They just type it in
+  you know it
 
   ## Contributors
-  Beno
+  Benny and the Jets
 
   ## Tests
-  Like...this stuff
+  example criteria lol
 
   ## Questions
-  Questions? Please contact me at bckasper@gmail.com or visit my Github to view this application at https://github.com/bckasper
+  Questions? Please contact me at bckasper@gmail.com and use the subject line "README Generator Help"
+
+  You can also visit my Github to view this application at https://github.com/bckasper

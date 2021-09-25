@@ -77,7 +77,9 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions
-  Questions? Please contact me at ${data.email} or visit my Github to view this application at https://github.com/${data.github}
+  Questions? Please contact me at ${data.email} and use the subject line "README Generator Help"
+
+  You can also visit my Github to view this application at https://github.com/${data.github}
 `;
 }
 
