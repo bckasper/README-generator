@@ -38,6 +38,7 @@ function renderLicenseSection(license) {
   } else {
     return `## License
 This application falls under the following license:
+
 ${renderLicenseBadge(license)}
 (${renderLicenseLink(license)})`
   }
