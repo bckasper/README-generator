@@ -1,9 +1,9 @@
 # test
   ### Created by: Ben
 
-  
-    ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
-    See information on this license at https://www.gnu.org/licenses/gpl-3.0
+  ![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)
+    
+    See information on this license at https://opensource.org/licenses/ISC
     
   
 
@@ -25,7 +25,7 @@
   test
 
   ## License
-  GNU GPLv3
+  ISC License
 
   ## Contributors
   test
