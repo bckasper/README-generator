@@ -1,12 +1,12 @@
-# Test
-  ### Created by: Ben
+# test
+  ### Created by: Benji
 
-  ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
-    See information on this license at https://www.gnu.org/licenses/gpl-3.0
+  ![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)
+See information on this license at https://opensource.org/licenses/ISC
   
 
   ## Description
-  Test
+  test
 
   ## Table of Contents
   - [Installation](#installation)
@@ -17,19 +17,19 @@
   - [Questions](#questions)
 
   ## Installation
-  TEst
+  test
 
   ## Usage
   test
 
   ## License
-  GNU GPLv3
+  ISC License
 
   ## Contributors
-  Test
+  test
 
   ## Tests
-  Test
+  test
 
   ## Questions
-  Questions? Please contact me at Tet or visit my Github to view this application at test
+  Questions? Please contact me at test or visit my Github to view this application at test
