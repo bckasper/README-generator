@@ -36,10 +36,7 @@ function renderLicenseSection(license) {
   if(license === 'None' || license === 'undefined'){
     return ''  
   } else {
-    return `${renderLicenseBadge(license)}
-    
-    See information on this license at ${renderLicenseLink(license)}
-    `
+    return `${renderLicenseBadge(license)} (${renderLicenseLink(license)})`
   }
 }
 
