@@ -4,6 +4,17 @@
   ## Description
   This is an application run out of the terminal that will create a README markdown file after the user enters answers for a series of prompts.
 
+  ## Application Demo
+
+  #### Screenshot
+  ![Screenshot of demo terminal](demo/demo-screenshot.png)
+
+  #### Link to demo video
+  https://youtu.be/BKqjLTdZafg 
+
+  #### Link to demo README
+  https://github.com/bckasper/README-generator/blob/main/demo/README-demo.md 
+
   ## Installation
   The user needs access to their terminal, the files in this directory, and have node.js installed on their machine. They will also need to install the inquirer package if they had not already done so.
 
@@ -17,8 +28,6 @@
   5. The README will include all the sections the user entered inputs for, as well as automatically creating a table of contents.
   6. As a note, if the user does not choose a license (or chooses "None"), there will be no license section.
 
-  ## Demo screenshot
-  ![Screenshot of demo terminal](demo/demo-screenshot.png)
 
   ## Tests
   Feel free to use this sample input data to test the application:
