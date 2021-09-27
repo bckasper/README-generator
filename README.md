@@ -4,14 +4,6 @@
   ## Description
   This is an application run out of the terminal that will create a README markdown file after the user enters answers for a series of prompts.
 
-  ## Table of Contents
-  - [Installation](#installation)
-  - [Application Usage](#usage)
-  - [License](#license)
-  - [Contributors](#contributors)
-  - [Tests](#tests)
-  - [Questions](#questions)
-
   ## Installation
   The user needs access to their terminal, the files in this directory, and have node.js installed on their machine. They will also need to install the inquirer package if they had not already done so.
 
